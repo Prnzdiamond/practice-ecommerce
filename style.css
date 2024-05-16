@@ -1,0 +1,145 @@
+.navbar-collapse{
+    justify-content: space-between;
+}
+
+.logo {
+    width: 7%;
+    height: 7%;
+}
+
+
+.card img {
+    margin: 0 auto;
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+
+body{
+    overflow-x: hidden !important;
+}
+
+li a {
+    color: #fff;
+}
+
+.nav-list{
+    color:#fff;
+}
+
+.extra-photos {
+    display: flex;
+    justify-content: center;
+}
+
+.extra-photos div {
+    width: 400px;
+    object-fit: contain;
+}
+
+.extra-photos div img {
+    width: 100%;
+    object-fit: contain;
+}
+
+ .owl-item .col-lg-12{
+   height: 400px !important;
+    display: grid;
+    flex-direction: column;
+}
+
+.product-active .owl-nav div.owl-prev {
+    left: 10px;
+}
+
+.product-active .owl-nav div.owl-next{
+    right: -15px;
+}
+
+.cat-btn {
+    width: 100%;
+    align-self: baseline;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 5px;
+    justify-self: baseline;
+}
+
+.product-review h5 {
+   height: 55px !important;
+}
+
+.li-product-thumbnail  img {
+    width: 150px;
+    object-fit: contain;
+}
+
+.button {
+        background-color: #333;
+    border: 0 none;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    height: 42px;
+    letter-spacing: 1px;
+    line-height: 42px;
+    padding: 0 25px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    width: inherit;
+}
+
+
+input.button:hover {
+    background-color: #797575;
+}
+
+input.button:active{
+    background-color: #00e;
+}
+
+
+.card-body .row {
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.card-body .row h6{ 
+    font-size: 16px;
+}
+
+.nav-item-prof {
+    list-style: none;
+}
+
+.prof-cart {
+    font-size: larger;
+    color: #408496;
+}
+
+.list-group-flush a {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.list-group-flush a:hover{
+    text-decoration: none;
+}
+.list-group-flush a li span.text-secondary {
+    text-decoration: none !important;
+
+}
+
+.list-group-flush a li span.text-secondary:hover {
+    text-decoration: none !important;
+
+}
+span.required{
+    color: #ac2727 !important;
+}

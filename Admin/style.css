@@ -1,0 +1,74 @@
+.admin-name {
+    display: block!important;
+}
+
+.adminpic {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.adminbtn {
+    align-items: center;
+    display: flex;
+}
+
+.adminbtnrow{
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.adminbtnrow .btn {
+    width: 100%;
+    border: 2px solid #FFF;
+}
+
+.adminbtnrow .col-md-2{
+    width: fit-content;
+    padding: 2px;
+}
+
+.adminbtnrow .nav-link {
+    color: #fff;
+    font-size: 16px;
+}
+.footer{
+    position: relative;
+    bottom: 100%;
+}
+.admin-con {
+    display: flex;
+    flex-direction: column;
+}
+
+.func-btn{
+    width: 100px;
+    padding: 10px;   
+}
+
+
+.ins-prod {
+    text-align: left !important;
+}
+
+.ins-prod>* {
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    font-size: 16px;
+}
+
+.ins-prod input,.ins-prod select{
+    padding: 5px;
+}
+
+.ins-prod input[type="submit"]{
+    width: fit-content;
+    margin: 10px 0;
+    margin-left: 160px;
+}
+
+input[type="file"]{
+    border: 1px solid;
+}
